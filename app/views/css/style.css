@@ -19,6 +19,7 @@ header{
 .logo h3{
     cursor: pointer;
 }
+
 .logo h3:hover{
     opacity: 0.7;
 }
@@ -51,7 +52,7 @@ header{
     flex-wrap: wrap;
     height: 100%;
 }
-.sidebar{   
+.sidebar{
     width: 20%;
     height: 100%;
     background-color: white;
@@ -73,7 +74,7 @@ header{
 .sidebar a{
     display: block;
     text-decoration: none;
-    padding: 10px 15px; 
+    padding: 10px 15px;
     color: #444;
 }
 .sidebar a:hover{
@@ -83,7 +84,7 @@ header{
     font-weight: bold;
 }
 .sidebar a:hover .sidebar a > svg{
-    color: #777;   
+    color: #777;
 }
 .sidebar a > svg{
     color: #444;
